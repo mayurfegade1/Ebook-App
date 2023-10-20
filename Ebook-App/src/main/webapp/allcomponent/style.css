@@ -1,0 +1,27 @@
+.bg-custom {
+		background-color:#1a237e;
+}
+
+.navbar .nav-item:hover .nav-link{
+	background-color: White;
+	color:rgb(255, 128, 0);
+	border-radius:15px;
+}
+
+/* toast */
+#toast {
+	min-width: 300px;
+	position: fixed;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -125px;
+	background: #333;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	z-index: 1;
+	font-size: 18px;
+	visibility: hidden;
+	box-shadow: 0px 0px 100px #000;
+}
+
